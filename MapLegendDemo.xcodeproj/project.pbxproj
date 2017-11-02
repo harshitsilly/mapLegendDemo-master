@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4893E9E51F3D1B6900FA7909 /* FUIMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893E9E41F3D1B6900FA7909 /* FUIMarkerAnnotationView.swift */; };
+		AA05C22D1F35329F00D65E82 /* FUIMapCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA05C22C1F35329F00D65E82 /* FUIMapCornerViewController.swift */; };
+		AA14A45E1F1923B3007ABFFE /* FUIDraggablePartialStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA14A45D1F1923B3007ABFFE /* FUIDraggablePartialStateView.xib */; };
+		AA1A75F21F20FFB0009AA97B /* DimOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A75F11F20FFB0009AA97B /* DimOverlay.swift */; };
+		AA1A75F41F20FFCE009AA97B /* DimOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A75F31F20FFCE009AA97B /* DimOverlayRenderer.swift */; };
+		AA1A75FC1F215E00009AA97B /* MapLegendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1A75FB1F215E00009AA97B /* MapLegendViewController.storyboard */; };
+		AA1A75FE1F215E70009AA97B /* MapLegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A75FD1F215E70009AA97B /* MapLegendViewController.swift */; };
+		AA24FEF91F3936C5005AE970 /* FUIDraggableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA24FEF81F3936C5005AE970 /* FUIDraggableView.xib */; };
+		AA24FEFB1F393E32005AE970 /* FUIDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA24FEFA1F393E32005AE970 /* FUIDraggableView.swift */; };
+		AA351BBC1F3BC0F500216040 /* Testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA351BBB1F3BC0F500216040 /* Testing.storyboard */; };
+		AA384B111F2AFB9C00EC841A /* DevVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA384B101F2AFB9C00EC841A /* DevVC.swift */; };
+		AA51928D1F0D82C0001D64CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51928C1F0D82C0001D64CB /* AppDelegate.swift */; };
+		AA5192941F0D82C0001D64CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5192931F0D82C0001D64CB /* Assets.xcassets */; };
+		AA5192971F0D82C0001D64CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5192951F0D82C0001D64CB /* LaunchScreen.storyboard */; };
+		AA5192A21F0D82C0001D64CB /* MapLegendDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5192A11F0D82C0001D64CB /* MapLegendDemoTests.swift */; };
+		AA5192AD1F0D832A001D64CB /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5192AC1F0D832A001D64CB /* DeveloperViewController.swift */; };
+		AA5192AF1F0D8350001D64CB /* FUIMapLegendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5192AE1F0D8350001D64CB /* FUIMapLegendTableViewController.swift */; };
+		AA5192B31F0D83CC001D64CB /* MapLegendTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5192B21F0D83CC001D64CB /* MapLegendTableViewController.storyboard */; };
+		AA641BB31F0E94350097C00F /* FUIMapLegendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA641BB21F0E94350097C00F /* FUIMapLegendDataSource.swift */; };
+		AA693FE51F1ECEC8004F55DD /* FUIMapToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA693FE41F1ECEC8004F55DD /* FUIMapToolbarButton.swift */; };
+		AA76C1D41F2964C60058B6A3 /* Gloabl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C1D31F2964C50058B6A3 /* Gloabl.swift */; };
+		AA8443FE1F2AB64900EF825E /* FUISearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8443FD1F2AB64900EF825E /* FUISearchController.swift */; };
+		AA8444001F2AB68000EF825E /* FUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8443FF1F2AB68000EF825E /* FUISearchBar.swift */; };
+		AA94B5321F17F0A60047891A /* FUIMapLegendIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B5311F17F0A60047891A /* FUIMapLegendIcon.swift */; };
+		AA94B5341F17F53E0047891A /* FUIMapLegendLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B5331F17F53E0047891A /* FUIMapLegendLine.swift */; };
+		AA9C399A1F3940B900AA5B7A /* FUIDraggableViewPartialStateTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9C39991F3940B900AA5B7A /* FUIDraggableViewPartialStateTVC.xib */; };
+		AAA1B8D31F2A9C6500C2B195 /* FUISearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1B8D21F2A9C6500C2B195 /* FUISearchResultsViewController.swift */; };
+		AAA1B8D51F2A9F5000C2B195 /* SearchTesting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA1B8D41F2A9F5000C2B195 /* SearchTesting.storyboard */; };
+		AAA224501F1D6D3C008749A0 /* DragButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2244F1F1D6D3C008749A0 /* DragButtonViewController.swift */; };
+		AAA224541F1D6EC3008749A0 /* FUIOnBoardingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA224531F1D6EC3008749A0 /* FUIOnBoardingUtil.swift */; };
+		AAA224561F1D7621008749A0 /* FUIMapLegendSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA224551F1D7621008749A0 /* FUIMapLegendSpec.swift */; };
+		AAB121671F0DA5BB00100B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB121661F0DA5BB00100B60 /* Main.storyboard */; };
+		AAB6A1C11F159C830058B8F9 /* FUIMapLegendLinePathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6A1C01F159C830058B8F9 /* FUIMapLegendLinePathView.swift */; };
+		AAB6A1C31F15A2C60058B8F9 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB6A1C21F15A2C60058B8F9 /* test.storyboard */; };
+		AAB6A1C51F15A2D80058B8F9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6A1C41F15A2D80058B8F9 /* TestViewController.swift */; };
+		AABB9F2E1F2646E800941182 /* MapSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB9F2D1F2646E800941182 /* MapSettingsViewController.swift */; };
+		AABB9F311F26472C00941182 /* MapSettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABB9F301F26472C00941182 /* MapSettingsViewController.storyboard */; };
+		AABB9F331F26479700941182 /* MapSettingsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB9F321F26479700941182 /* MapSettingsDataSource.swift */; };
+		AABDE10F1F290359002DA17C /* SlideInPresentationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE10E1F290359002DA17C /* SlideInPresentationAnimation.swift */; };
+		AABE4EF61F3B707300370999 /* DrawingObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EE51F3B707300370999 /* DrawingObjectView.swift */; };
+		AABE4EF71F3B707300370999 /* DrawingObjectViewTransitionCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EE61F3B707300370999 /* DrawingObjectViewTransitionCalculations.swift */; };
+		AABE4EF81F3B707300370999 /* DrawingObjectViewOverrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EE71F3B707300370999 /* DrawingObjectViewOverrides.swift */; };
+		AABE4EF91F3B707300370999 /* DrawingObjectViewAttributedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EE81F3B707300370999 /* DrawingObjectViewAttributedStrings.swift */; };
+		AABE4EFA1F3B707300370999 /* DrawingObjectView_FUIObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EE91F3B707300370999 /* DrawingObjectView_FUIObject.swift */; };
+		AABE4EFB1F3B707300370999 /* FUIDisclosureIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EEA1F3B707300370999 /* FUIDisclosureIndicator.swift */; };
+		AABE4EFC1F3B707300370999 /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EEB1F3B707300370999 /* HelperExtensions.swift */; };
+		AABE4EFD1F3B707300370999 /* CircleGlyphLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EEC1F3B707300370999 /* CircleGlyphLayoutManager.swift */; };
+		AABE4EFE1F3B707300370999 /* DrawingObjectTableViewCell_FUIObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EED1F3B707300370999 /* DrawingObjectTableViewCell_FUIObject.swift */; };
+		AABE4EFF1F3B707300370999 /* DrawingObjectTableViewCell_FUIObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EEE1F3B707300370999 /* DrawingObjectTableViewCell_FUIObjectView.swift */; };
+		AABE4F001F3B707300370999 /* GlyphImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EEF1F3B707300370999 /* GlyphImage.swift */; };
+		AABE4F011F3B707300370999 /* FioriAttributedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF01F3B707300370999 /* FioriAttributedStyle.swift */; };
+		AABE4F021F3B707300370999 /* FUIMapDetailObjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF11F3B707300370999 /* FUIMapDetailObjectTableViewCell.swift */; };
+		AABE4F031F3B707300370999 /* TaggingLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF21F3B707300370999 /* TaggingLayoutManager.swift */; };
+		AABE4F041F3B707300370999 /* DrawingObjectTableViewCellOverrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF31F3B707300370999 /* DrawingObjectTableViewCellOverrides.swift */; };
+		AABE4F051F3B707300370999 /* DrawingObjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF41F3B707300370999 /* DrawingObjectTableViewCell.swift */; };
+		AABE4F061F3B707300370999 /* DrawingObjectViewCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4EF51F3B707300370999 /* DrawingObjectViewCalculations.swift */; };
+		AABE4F081F3B70B900370999 /* MapDetailTestingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE4F071F3B70B900370999 /* MapDetailTestingTableViewController.swift */; };
+		AABEE07A1F184EB1009112D5 /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABEE0791F184EB1009112D5 /* Base.storyboard */; };
+		AABF60A21F1E7DBA00B07806 /* FUIMapToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABF60A11F1E7DBA00B07806 /* FUIMapToolbar.swift */; };
+		AABF60A81F1E80D700B07806 /* FUIMapToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABF60A71F1E80D700B07806 /* FUIMapToolbar.xib */; };
+		AABF60AA1F1E834A00B07806 /* FUIMapToolbarTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABF60A91F1E834A00B07806 /* FUIMapToolbarTest.storyboard */; };
+		AAD0E1691F1EB6F700DFEC9C /* FUIMapToolbarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0E1681F1EB6F700DFEC9C /* FUIMapToolbarDataSource.swift */; };
+		AAD0FF031F1988B40028AFCF /* PartialSizePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0FF021F1988B40028AFCF /* PartialSizePresentationController.swift */; };
+		AAD2AB341F3A1961002002D6 /* FUIResizableCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2AB331F3A1961002002D6 /* FUIResizableCornerView.swift */; };
+		AAD2AB361F3A397A002002D6 /* FUISearchContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2AB351F3A397A002002D6 /* FUISearchContainerView.swift */; };
+		AAD2AB3C1F3A70ED002002D6 /* DevProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2AB3B1F3A70ED002002D6 /* DevProtocols.swift */; };
+		AAE6B6491F0E9487009E53D5 /* FUIMapLegendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE6B6481F0E9487009E53D5 /* FUIMapLegendItem.swift */; };
+		AAEA83A01F3CC90D00A02A42 /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEA839F1F3CC90C00A02A42 /* SAPFiori.framework */; };
+		AAEA83A11F3CC90D00A02A42 /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAEA839F1F3CC90C00A02A42 /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAEBD5461F2F9A4900716F3A /* FUIMapDragContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD5451F2F9A4900716F3A /* FUIMapDragContentViewController.swift */; };
+		AAEBD5481F2F9E6300716F3A /* FUIMapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD5471F2F9E6300716F3A /* FUIMapDetailViewController.swift */; };
+		AAFBDBE91F0ED93000397EAB /* FUIMapLegendItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBDBE81F0ED93000397EAB /* FUIMapLegendItemTableViewCell.swift */; };
+		AAFBDBFE1F141E5700397EAB /* FUIMapLegendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBDBFD1F141E5700397EAB /* FUIMapLegendHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA51929E1F0D82C0001D64CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5192811F0D82BF001D64CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5192881F0D82C0001D64CB;
+			remoteInfo = MapLegendDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AABE4F0C1F3B776000370999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AAEA83A11F3CC90D00A02A42 /* SAPFiori.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4893E9E41F3D1B6900FA7909 /* FUIMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUIMarkerAnnotationView.swift; path = MapLegendDemo/FUIMarkerAnnotationView.swift; sourceTree = "<group>"; };
+		AA05C22C1F35329F00D65E82 /* FUIMapCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapCornerViewController.swift; sourceTree = "<group>"; };
+		AA14A45D1F1923B3007ABFFE /* FUIDraggablePartialStateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FUIDraggablePartialStateView.xib; sourceTree = "<group>"; };
+		AA1A75F11F20FFB0009AA97B /* DimOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DimOverlay.swift; path = MapLegendDemo/DimOverlay.swift; sourceTree = "<group>"; };
+		AA1A75F31F20FFCE009AA97B /* DimOverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DimOverlayRenderer.swift; path = MapLegendDemo/DimOverlayRenderer.swift; sourceTree = "<group>"; };
+		AA1A75FB1F215E00009AA97B /* MapLegendViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapLegendViewController.storyboard; sourceTree = "<group>"; };
+		AA1A75FD1F215E70009AA97B /* MapLegendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapLegendViewController.swift; path = MapLegendDemo/FUIMapLegendItem/MapLegendViewController.swift; sourceTree = SOURCE_ROOT; };
+		AA24FEF81F3936C5005AE970 /* FUIDraggableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FUIDraggableView.xib; sourceTree = "<group>"; };
+		AA24FEFA1F393E32005AE970 /* FUIDraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIDraggableView.swift; sourceTree = "<group>"; };
+		AA351BBB1F3BC0F500216040 /* Testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Testing.storyboard; sourceTree = "<group>"; };
+		AA384B101F2AFB9C00EC841A /* DevVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevVC.swift; sourceTree = "<group>"; };
+		AA5192891F0D82C0001D64CB /* MapLegendDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLegendDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA51928C1F0D82C0001D64CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA5192931F0D82C0001D64CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5192961F0D82C0001D64CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA5192981F0D82C0001D64CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA51929D1F0D82C0001D64CB /* MapLegendDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLegendDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5192A11F0D82C0001D64CB /* MapLegendDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLegendDemoTests.swift; sourceTree = "<group>"; };
+		AA5192A31F0D82C0001D64CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5192AC1F0D832A001D64CB /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		AA5192AE1F0D8350001D64CB /* FUIMapLegendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendTableViewController.swift; sourceTree = "<group>"; };
+		AA5192B21F0D83CC001D64CB /* MapLegendTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapLegendTableViewController.storyboard; sourceTree = "<group>"; };
+		AA641BB21F0E94350097C00F /* FUIMapLegendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendDataSource.swift; sourceTree = "<group>"; };
+		AA693FE41F1ECEC8004F55DD /* FUIMapToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapToolbarButton.swift; sourceTree = "<group>"; };
+		AA76C1D31F2964C50058B6A3 /* Gloabl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gloabl.swift; sourceTree = "<group>"; };
+		AA8443FD1F2AB64900EF825E /* FUISearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUISearchController.swift; path = MapLegendDemo/FUISearchController.swift; sourceTree = "<group>"; };
+		AA8443FF1F2AB68000EF825E /* FUISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUISearchBar.swift; path = MapLegendDemo/FUISearchBar.swift; sourceTree = "<group>"; };
+		AA94B5311F17F0A60047891A /* FUIMapLegendIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendIcon.swift; sourceTree = "<group>"; };
+		AA94B5331F17F53E0047891A /* FUIMapLegendLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendLine.swift; sourceTree = "<group>"; };
+		AA9C39991F3940B900AA5B7A /* FUIDraggableViewPartialStateTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FUIDraggableViewPartialStateTVC.xib; sourceTree = "<group>"; };
+		AAA1B8D21F2A9C6500C2B195 /* FUISearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUISearchResultsViewController.swift; sourceTree = "<group>"; };
+		AAA1B8D41F2A9F5000C2B195 /* SearchTesting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SearchTesting.storyboard; path = Storyboards/SearchTesting.storyboard; sourceTree = "<group>"; };
+		AAA2244F1F1D6D3C008749A0 /* DragButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragButtonViewController.swift; sourceTree = "<group>"; };
+		AAA224531F1D6EC3008749A0 /* FUIOnBoardingUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIOnBoardingUtil.swift; sourceTree = "<group>"; };
+		AAA224551F1D7621008749A0 /* FUIMapLegendSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUIMapLegendSpec.swift; path = MapLegendDemo/FUIMapLegendSpec.swift; sourceTree = "<group>"; };
+		AAB121661F0DA5BB00100B60 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AAB6A1C01F159C830058B8F9 /* FUIMapLegendLinePathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendLinePathView.swift; sourceTree = "<group>"; };
+		AAB6A1C21F15A2C60058B8F9 /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		AAB6A1C41F15A2D80058B8F9 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		AABB9F2D1F2646E800941182 /* MapSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettingsViewController.swift; sourceTree = "<group>"; };
+		AABB9F301F26472C00941182 /* MapSettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapSettingsViewController.storyboard; sourceTree = "<group>"; };
+		AABB9F321F26479700941182 /* MapSettingsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettingsDataSource.swift; sourceTree = "<group>"; };
+		AABDE10E1F290359002DA17C /* SlideInPresentationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimation.swift; sourceTree = "<group>"; };
+		AABE4EE51F3B707300370999 /* DrawingObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectView.swift; sourceTree = "<group>"; };
+		AABE4EE61F3B707300370999 /* DrawingObjectViewTransitionCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectViewTransitionCalculations.swift; sourceTree = "<group>"; };
+		AABE4EE71F3B707300370999 /* DrawingObjectViewOverrides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectViewOverrides.swift; sourceTree = "<group>"; };
+		AABE4EE81F3B707300370999 /* DrawingObjectViewAttributedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectViewAttributedStrings.swift; sourceTree = "<group>"; };
+		AABE4EE91F3B707300370999 /* DrawingObjectView_FUIObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectView_FUIObject.swift; sourceTree = "<group>"; };
+		AABE4EEA1F3B707300370999 /* FUIDisclosureIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUIDisclosureIndicator.swift; sourceTree = "<group>"; };
+		AABE4EEB1F3B707300370999 /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		AABE4EEC1F3B707300370999 /* CircleGlyphLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGlyphLayoutManager.swift; sourceTree = "<group>"; };
+		AABE4EED1F3B707300370999 /* DrawingObjectTableViewCell_FUIObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectTableViewCell_FUIObject.swift; sourceTree = "<group>"; };
+		AABE4EEE1F3B707300370999 /* DrawingObjectTableViewCell_FUIObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectTableViewCell_FUIObjectView.swift; sourceTree = "<group>"; };
+		AABE4EEF1F3B707300370999 /* GlyphImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlyphImage.swift; sourceTree = "<group>"; };
+		AABE4EF01F3B707300370999 /* FioriAttributedStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FioriAttributedStyle.swift; sourceTree = "<group>"; };
+		AABE4EF11F3B707300370999 /* FUIMapDetailObjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUIMapDetailObjectTableViewCell.swift; sourceTree = "<group>"; };
+		AABE4EF21F3B707300370999 /* TaggingLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggingLayoutManager.swift; sourceTree = "<group>"; };
+		AABE4EF31F3B707300370999 /* DrawingObjectTableViewCellOverrides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectTableViewCellOverrides.swift; sourceTree = "<group>"; };
+		AABE4EF41F3B707300370999 /* DrawingObjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectTableViewCell.swift; sourceTree = "<group>"; };
+		AABE4EF51F3B707300370999 /* DrawingObjectViewCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingObjectViewCalculations.swift; sourceTree = "<group>"; };
+		AABE4F071F3B70B900370999 /* MapDetailTestingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapDetailTestingTableViewController.swift; path = Stan/MapDetailTestingTableViewController.swift; sourceTree = "<group>"; };
+		AABEE0791F184EB1009112D5 /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		AABF60A11F1E7DBA00B07806 /* FUIMapToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapToolbar.swift; sourceTree = "<group>"; };
+		AABF60A71F1E80D700B07806 /* FUIMapToolbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FUIMapToolbar.xib; sourceTree = "<group>"; };
+		AABF60A91F1E834A00B07806 /* FUIMapToolbarTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FUIMapToolbarTest.storyboard; sourceTree = "<group>"; };
+		AAD0E1681F1EB6F700DFEC9C /* FUIMapToolbarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapToolbarDataSource.swift; sourceTree = "<group>"; };
+		AAD0FF021F1988B40028AFCF /* PartialSizePresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSizePresentationController.swift; sourceTree = "<group>"; };
+		AAD2AB331F3A1961002002D6 /* FUIResizableCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIResizableCornerView.swift; sourceTree = "<group>"; };
+		AAD2AB351F3A397A002002D6 /* FUISearchContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUISearchContainerView.swift; sourceTree = "<group>"; };
+		AAD2AB3B1F3A70ED002002D6 /* DevProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DevProtocols.swift; path = DragView/DevProtocols.swift; sourceTree = "<group>"; };
+		AAE6B6481F0E9487009E53D5 /* FUIMapLegendItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendItem.swift; sourceTree = "<group>"; };
+		AAEA839F1F3CC90C00A02A42 /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		AAEBD5451F2F9A4900716F3A /* FUIMapDragContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapDragContentViewController.swift; sourceTree = "<group>"; };
+		AAEBD5471F2F9E6300716F3A /* FUIMapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapDetailViewController.swift; sourceTree = "<group>"; };
+		AAFBDBE81F0ED93000397EAB /* FUIMapLegendItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendItemTableViewCell.swift; sourceTree = "<group>"; };
+		AAFBDBFD1F141E5700397EAB /* FUIMapLegendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIMapLegendHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5192861F0D82C0001D64CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEA83A01F3CC90D00A02A42 /* SAPFiori.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51929A1F0D82C0001D64CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA05C22E1F3532AD00D65E82 /* DragView */ = {
+			isa = PBXGroup;
+			children = (
+				AA24FEFA1F393E32005AE970 /* FUIDraggableView.swift */,
+				AAEBD5451F2F9A4900716F3A /* FUIMapDragContentViewController.swift */,
+				AA24FEF81F3936C5005AE970 /* FUIDraggableView.xib */,
+				AA14A45D1F1923B3007ABFFE /* FUIDraggablePartialStateView.xib */,
+				AA9C39991F3940B900AA5B7A /* FUIDraggableViewPartialStateTVC.xib */,
+			);
+			path = DragView;
+			sourceTree = "<group>";
+		};
+		AA16EF161F1FDF03009AEA38 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0E1681F1EB6F700DFEC9C /* FUIMapToolbarDataSource.swift */,
+				AA693FE41F1ECEC8004F55DD /* FUIMapToolbarButton.swift */,
+				AABF60A11F1E7DBA00B07806 /* FUIMapToolbar.swift */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		AA1A75F51F20FFE1009AA97B /* DimMap */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A75F11F20FFB0009AA97B /* DimOverlay.swift */,
+				AA1A75F31F20FFCE009AA97B /* DimOverlayRenderer.swift */,
+			);
+			name = DimMap;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AA5192801F0D82BF001D64CB = {
+			isa = PBXGroup;
+			children = (
+				4893E9E41F3D1B6900FA7909 /* FUIMarkerAnnotationView.swift */,
+				AAEA839F1F3CC90C00A02A42 /* SAPFiori.framework */,
+				AABE4F071F3B70B900370999 /* MapDetailTestingTableViewController.swift */,
+				AABE4EE41F3B705000370999 /* Stan */,
+				AA8443FD1F2AB64900EF825E /* FUISearchController.swift */,
+				AA8443FF1F2AB68000EF825E /* FUISearchBar.swift */,
+				AA76C1D31F2964C50058B6A3 /* Gloabl.swift */,
+				AAA224551F1D7621008749A0 /* FUIMapLegendSpec.swift */,
+				AA51928B1F0D82C0001D64CB /* MapLegendDemo */,
+				AA5192A01F0D82C0001D64CB /* MapLegendDemoTests */,
+				AA51928A1F0D82C0001D64CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA51928A1F0D82C0001D64CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5192891F0D82C0001D64CB /* MapLegendDemo.app */,
+				AA51929D1F0D82C0001D64CB /* MapLegendDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA51928B1F0D82C0001D64CB /* MapLegendDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2AB351F3A397A002002D6 /* FUISearchContainerView.swift */,
+				AA384B101F2AFB9C00EC841A /* DevVC.swift */,
+				AAD2AB3B1F3A70ED002002D6 /* DevProtocols.swift */,
+				AAA1B8D21F2A9C6500C2B195 /* FUISearchResultsViewController.swift */,
+				AAD2AB331F3A1961002002D6 /* FUIResizableCornerView.swift */,
+				AA05C22C1F35329F00D65E82 /* FUIMapCornerViewController.swift */,
+				AAEBD5471F2F9E6300716F3A /* FUIMapDetailViewController.swift */,
+				AA5192AC1F0D832A001D64CB /* DeveloperViewController.swift */,
+				AAA1B8D41F2A9F5000C2B195 /* SearchTesting.storyboard */,
+				AA05C22E1F3532AD00D65E82 /* DragView */,
+				AA94B5361F17FAAD0047891A /* FUIMapLegendItem */,
+				AA16EF161F1FDF03009AEA38 /* Toolbar */,
+				AA94B5371F17FADB0047891A /* TableView */,
+				AABB9F2F1F2646F000941182 /* Map Settings */,
+				AAB121681F0DAD5E00100B60 /* Storyboards */,
+				AA94B5301F17D1360047891A /* Testing */,
+				AAB121631F0DA39500100B60 /* Resources */,
+				AA5192981F0D82C0001D64CB /* Info.plist */,
+			);
+			path = MapLegendDemo;
+			sourceTree = "<group>";
+		};
+		AA5192A01F0D82C0001D64CB /* MapLegendDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5192A11F0D82C0001D64CB /* MapLegendDemoTests.swift */,
+				AA5192A31F0D82C0001D64CB /* Info.plist */,
+			);
+			path = MapLegendDemoTests;
+			sourceTree = "<group>";
+		};
+		AA94B5301F17D1360047891A /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				AAA2244F1F1D6D3C008749A0 /* DragButtonViewController.swift */,
+				AABF60A91F1E834A00B07806 /* FUIMapToolbarTest.storyboard */,
+				AABF60A71F1E80D700B07806 /* FUIMapToolbar.xib */,
+				AABF60A51F1E7DE400B07806 /* NotificationCenter */,
+				AA1A75F51F20FFE1009AA97B /* DimMap */,
+				AABF60A61F1E7DFE00B07806 /* BezierPath */,
+			);
+			name = Testing;
+			sourceTree = "<group>";
+		};
+		AA94B5361F17FAAD0047891A /* FUIMapLegendItem */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A75FD1F215E70009AA97B /* MapLegendViewController.swift */,
+				AA641BB21F0E94350097C00F /* FUIMapLegendDataSource.swift */,
+				AAE6B6481F0E9487009E53D5 /* FUIMapLegendItem.swift */,
+				AA94B5331F17F53E0047891A /* FUIMapLegendLine.swift */,
+				AA94B5311F17F0A60047891A /* FUIMapLegendIcon.swift */,
+			);
+			path = FUIMapLegendItem;
+			sourceTree = "<group>";
+		};
+		AA94B5371F17FADB0047891A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBDBFD1F141E5700397EAB /* FUIMapLegendHeaderView.swift */,
+				AA5192AE1F0D8350001D64CB /* FUIMapLegendTableViewController.swift */,
+				AAFBDBE81F0ED93000397EAB /* FUIMapLegendItemTableViewCell.swift */,
+				AAB6A1C01F159C830058B8F9 /* FUIMapLegendLinePathView.swift */,
+				AAD0FF021F1988B40028AFCF /* PartialSizePresentationController.swift */,
+				AABDE10E1F290359002DA17C /* SlideInPresentationAnimation.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		AAB121631F0DA39500100B60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAA224531F1D6EC3008749A0 /* FUIOnBoardingUtil.swift */,
+				AA5192951F0D82C0001D64CB /* LaunchScreen.storyboard */,
+				AA5192931F0D82C0001D64CB /* Assets.xcassets */,
+				AA51928C1F0D82C0001D64CB /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAB121681F0DAD5E00100B60 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AAB121661F0DA5BB00100B60 /* Main.storyboard */,
+				AA5192B21F0D83CC001D64CB /* MapLegendTableViewController.storyboard */,
+				AA1A75FB1F215E00009AA97B /* MapLegendViewController.storyboard */,
+				AA351BBB1F3BC0F500216040 /* Testing.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AABB9F2F1F2646F000941182 /* Map Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AABB9F321F26479700941182 /* MapSettingsDataSource.swift */,
+				AABB9F2D1F2646E800941182 /* MapSettingsViewController.swift */,
+				AABB9F301F26472C00941182 /* MapSettingsViewController.storyboard */,
+			);
+			path = "Map Settings";
+			sourceTree = "<group>";
+		};
+		AABE4EE41F3B705000370999 /* Stan */ = {
+			isa = PBXGroup;
+			children = (
+				AABE4EEC1F3B707300370999 /* CircleGlyphLayoutManager.swift */,
+				AABE4EED1F3B707300370999 /* DrawingObjectTableViewCell_FUIObject.swift */,
+				AABE4EEE1F3B707300370999 /* DrawingObjectTableViewCell_FUIObjectView.swift */,
+				AABE4EF41F3B707300370999 /* DrawingObjectTableViewCell.swift */,
+				AABE4EF31F3B707300370999 /* DrawingObjectTableViewCellOverrides.swift */,
+				AABE4EE91F3B707300370999 /* DrawingObjectView_FUIObject.swift */,
+				AABE4EE51F3B707300370999 /* DrawingObjectView.swift */,
+				AABE4EE81F3B707300370999 /* DrawingObjectViewAttributedStrings.swift */,
+				AABE4EF51F3B707300370999 /* DrawingObjectViewCalculations.swift */,
+				AABE4EE71F3B707300370999 /* DrawingObjectViewOverrides.swift */,
+				AABE4EE61F3B707300370999 /* DrawingObjectViewTransitionCalculations.swift */,
+				AABE4EF01F3B707300370999 /* FioriAttributedStyle.swift */,
+				AABE4EEA1F3B707300370999 /* FUIDisclosureIndicator.swift */,
+				AABE4EF11F3B707300370999 /* FUIMapDetailObjectTableViewCell.swift */,
+				AABE4EEF1F3B707300370999 /* GlyphImage.swift */,
+				AABE4EEB1F3B707300370999 /* HelperExtensions.swift */,
+				AABE4EF21F3B707300370999 /* TaggingLayoutManager.swift */,
+			);
+			path = Stan;
+			sourceTree = "<group>";
+		};
+		AABF60A51F1E7DE400B07806 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AABEE0791F184EB1009112D5 /* Base.storyboard */,
+			);
+			name = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		AABF60A61F1E7DFE00B07806 /* BezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				AAB6A1C21F15A2C60058B8F9 /* test.storyboard */,
+				AAB6A1C41F15A2D80058B8F9 /* TestViewController.swift */,
+			);
+			name = BezierPath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5192881F0D82C0001D64CB /* MapLegendDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5192A61F0D82C0001D64CB /* Build configuration list for PBXNativeTarget "MapLegendDemo" */;
+			buildPhases = (
+				AA5192851F0D82C0001D64CB /* Sources */,
+				AA5192861F0D82C0001D64CB /* Frameworks */,
+				AA5192871F0D82C0001D64CB /* Resources */,
+				AABE4F0C1F3B776000370999 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapLegendDemo;
+			productName = MapLegendDemo;
+			productReference = AA5192891F0D82C0001D64CB /* MapLegendDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA51929C1F0D82C0001D64CB /* MapLegendDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5192A91F0D82C0001D64CB /* Build configuration list for PBXNativeTarget "MapLegendDemoTests" */;
+			buildPhases = (
+				AA5192991F0D82C0001D64CB /* Sources */,
+				AA51929A1F0D82C0001D64CB /* Frameworks */,
+				AA51929B1F0D82C0001D64CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA51929F1F0D82C0001D64CB /* PBXTargetDependency */,
+			);
+			name = MapLegendDemoTests;
+			productName = MapLegendDemoTests;
+			productReference = AA51929D1F0D82C0001D64CB /* MapLegendDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5192811F0D82BF001D64CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Takahashi, Alex";
+				TargetAttributes = {
+					AA5192881F0D82C0001D64CB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AA51929C1F0D82C0001D64CB = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AA5192881F0D82C0001D64CB;
+					};
+				};
+			};
+			buildConfigurationList = AA5192841F0D82BF001D64CB /* Build configuration list for PBXProject "MapLegendDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5192801F0D82BF001D64CB;
+			productRefGroup = AA51928A1F0D82C0001D64CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5192881F0D82C0001D64CB /* MapLegendDemo */,
+				AA51929C1F0D82C0001D64CB /* MapLegendDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5192871F0D82C0001D64CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5192971F0D82C0001D64CB /* LaunchScreen.storyboard in Resources */,
+				AABB9F311F26472C00941182 /* MapSettingsViewController.storyboard in Resources */,
+				AABEE07A1F184EB1009112D5 /* Base.storyboard in Resources */,
+				AABF60AA1F1E834A00B07806 /* FUIMapToolbarTest.storyboard in Resources */,
+				AA1A75FC1F215E00009AA97B /* MapLegendViewController.storyboard in Resources */,
+				AAB121671F0DA5BB00100B60 /* Main.storyboard in Resources */,
+				AA5192941F0D82C0001D64CB /* Assets.xcassets in Resources */,
+				AABF60A81F1E80D700B07806 /* FUIMapToolbar.xib in Resources */,
+				AA9C399A1F3940B900AA5B7A /* FUIDraggableViewPartialStateTVC.xib in Resources */,
+				AAB6A1C31F15A2C60058B8F9 /* test.storyboard in Resources */,
+				AA14A45E1F1923B3007ABFFE /* FUIDraggablePartialStateView.xib in Resources */,
+				AA24FEF91F3936C5005AE970 /* FUIDraggableView.xib in Resources */,
+				AA5192B31F0D83CC001D64CB /* MapLegendTableViewController.storyboard in Resources */,
+				AAA1B8D51F2A9F5000C2B195 /* SearchTesting.storyboard in Resources */,
+				AA351BBC1F3BC0F500216040 /* Testing.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51929B1F0D82C0001D64CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5192851F0D82C0001D64CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABE4F021F3B707300370999 /* FUIMapDetailObjectTableViewCell.swift in Sources */,
+				AAA224561F1D7621008749A0 /* FUIMapLegendSpec.swift in Sources */,
+				AA8443FE1F2AB64900EF825E /* FUISearchController.swift in Sources */,
+				AA1A75FE1F215E70009AA97B /* MapLegendViewController.swift in Sources */,
+				AAA224501F1D6D3C008749A0 /* DragButtonViewController.swift in Sources */,
+				AABE4EF61F3B707300370999 /* DrawingObjectView.swift in Sources */,
+				AAB6A1C51F15A2D80058B8F9 /* TestViewController.swift in Sources */,
+				AABE4F061F3B707300370999 /* DrawingObjectViewCalculations.swift in Sources */,
+				AAB6A1C11F159C830058B8F9 /* FUIMapLegendLinePathView.swift in Sources */,
+				AA94B5321F17F0A60047891A /* FUIMapLegendIcon.swift in Sources */,
+				AABE4EFC1F3B707300370999 /* HelperExtensions.swift in Sources */,
+				AABE4EFE1F3B707300370999 /* DrawingObjectTableViewCell_FUIObject.swift in Sources */,
+				AA1A75F41F20FFCE009AA97B /* DimOverlayRenderer.swift in Sources */,
+				AA5192AF1F0D8350001D64CB /* FUIMapLegendTableViewController.swift in Sources */,
+				AABB9F331F26479700941182 /* MapSettingsDataSource.swift in Sources */,
+				AABE4EFA1F3B707300370999 /* DrawingObjectView_FUIObject.swift in Sources */,
+				AABE4EF71F3B707300370999 /* DrawingObjectViewTransitionCalculations.swift in Sources */,
+				AABE4EF81F3B707300370999 /* DrawingObjectViewOverrides.swift in Sources */,
+				AA8444001F2AB68000EF825E /* FUISearchBar.swift in Sources */,
+				AABE4F001F3B707300370999 /* GlyphImage.swift in Sources */,
+				AAEBD5481F2F9E6300716F3A /* FUIMapDetailViewController.swift in Sources */,
+				4893E9E51F3D1B6900FA7909 /* FUIMarkerAnnotationView.swift in Sources */,
+				AA384B111F2AFB9C00EC841A /* DevVC.swift in Sources */,
+				AAD2AB341F3A1961002002D6 /* FUIResizableCornerView.swift in Sources */,
+				AA76C1D41F2964C60058B6A3 /* Gloabl.swift in Sources */,
+				AABE4EFD1F3B707300370999 /* CircleGlyphLayoutManager.swift in Sources */,
+				AABE4F011F3B707300370999 /* FioriAttributedStyle.swift in Sources */,
+				AA1A75F21F20FFB0009AA97B /* DimOverlay.swift in Sources */,
+				AAD0FF031F1988B40028AFCF /* PartialSizePresentationController.swift in Sources */,
+				AA5192AD1F0D832A001D64CB /* DeveloperViewController.swift in Sources */,
+				AAD2AB3C1F3A70ED002002D6 /* DevProtocols.swift in Sources */,
+				AAA224541F1D6EC3008749A0 /* FUIOnBoardingUtil.swift in Sources */,
+				AABE4F051F3B707300370999 /* DrawingObjectTableViewCell.swift in Sources */,
+				AAD0E1691F1EB6F700DFEC9C /* FUIMapToolbarDataSource.swift in Sources */,
+				AA94B5341F17F53E0047891A /* FUIMapLegendLine.swift in Sources */,
+				AABB9F2E1F2646E800941182 /* MapSettingsViewController.swift in Sources */,
+				AABE4EFF1F3B707300370999 /* DrawingObjectTableViewCell_FUIObjectView.swift in Sources */,
+				AA641BB31F0E94350097C00F /* FUIMapLegendDataSource.swift in Sources */,
+				AABE4F031F3B707300370999 /* TaggingLayoutManager.swift in Sources */,
+				AA693FE51F1ECEC8004F55DD /* FUIMapToolbarButton.swift in Sources */,
+				AA24FEFB1F393E32005AE970 /* FUIDraggableView.swift in Sources */,
+				AABDE10F1F290359002DA17C /* SlideInPresentationAnimation.swift in Sources */,
+				AAEBD5461F2F9A4900716F3A /* FUIMapDragContentViewController.swift in Sources */,
+				AAFBDBFE1F141E5700397EAB /* FUIMapLegendHeaderView.swift in Sources */,
+				AAFBDBE91F0ED93000397EAB /* FUIMapLegendItemTableViewCell.swift in Sources */,
+				AAE6B6491F0E9487009E53D5 /* FUIMapLegendItem.swift in Sources */,
+				AA05C22D1F35329F00D65E82 /* FUIMapCornerViewController.swift in Sources */,
+				AABE4F041F3B707300370999 /* DrawingObjectTableViewCellOverrides.swift in Sources */,
+				AABE4EF91F3B707300370999 /* DrawingObjectViewAttributedStrings.swift in Sources */,
+				AABE4F081F3B70B900370999 /* MapDetailTestingTableViewController.swift in Sources */,
+				AAA1B8D31F2A9C6500C2B195 /* FUISearchResultsViewController.swift in Sources */,
+				AABF60A21F1E7DBA00B07806 /* FUIMapToolbar.swift in Sources */,
+				AABE4EFB1F3B707300370999 /* FUIDisclosureIndicator.swift in Sources */,
+				AA51928D1F0D82C0001D64CB /* AppDelegate.swift in Sources */,
+				AAD2AB361F3A397A002002D6 /* FUISearchContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5192991F0D82C0001D64CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5192A21F0D82C0001D64CB /* MapLegendDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA51929F1F0D82C0001D64CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5192881F0D82C0001D64CB /* MapLegendDemo */;
+			targetProxy = AA51929E1F0D82C0001D64CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5192951F0D82C0001D64CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5192961F0D82C0001D64CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5192A41F0D82C0001D64CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA5192A51F0D82C0001D64CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5192A71F0D82C0001D64CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F8Y9D4FUY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapLegendDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MapLegendDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAP.MapLegendDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5192A81F0D82C0001D64CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F8Y9D4FUY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapLegendDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MapLegendDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAP.MapLegendDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA5192AA1F0D82C0001D64CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapLegendDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAP.MapLegendDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLegendDemo.app/MapLegendDemo";
+			};
+			name = Debug;
+		};
+		AA5192AB1F0D82C0001D64CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapLegendDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SAP.MapLegendDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLegendDemo.app/MapLegendDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5192841F0D82BF001D64CB /* Build configuration list for PBXProject "MapLegendDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5192A41F0D82C0001D64CB /* Debug */,
+				AA5192A51F0D82C0001D64CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5192A61F0D82C0001D64CB /* Build configuration list for PBXNativeTarget "MapLegendDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5192A71F0D82C0001D64CB /* Debug */,
+				AA5192A81F0D82C0001D64CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5192A91F0D82C0001D64CB /* Build configuration list for PBXNativeTarget "MapLegendDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5192AA1F0D82C0001D64CB /* Debug */,
+				AA5192AB1F0D82C0001D64CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5192811F0D82BF001D64CB /* Project object */;
+}

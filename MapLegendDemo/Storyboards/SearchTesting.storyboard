@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fi9-Nw-esM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map Search Bar View Controller-->
+        <scene sceneID="IP5-sd-Wa7">
+            <objects>
+                <viewController storyboardIdentifier="searchBar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JAV-wo-Nur" customClass="FUIMapSearchBarViewController" customModule="MapLegendDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="frz-sd-Mcu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="oeb-G3-SnR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hdR-uQ-NIo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ibf-FM-5LK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="223"/>
+        </scene>
+        <!--Map Detail View Controller-->
+        <scene sceneID="Fft-0S-83c">
+            <objects>
+                <tableViewController storyboardIdentifier="detailView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="y68-wC-cjV" customClass="FUIMapDetailViewController" customModule="MapLegendDemo" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFC-9f-uOJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="998"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0ly-S0-9YK">
+            <objects>
+                <navigationController storyboardIdentifier="navBar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Ws-Xi-CLU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ffe-MJ-eOt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JAV-wo-Nur" kind="relationship" relationship="rootViewController" id="oby-BZ-xR0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBc-vy-KJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-774" y="223"/>
+        </scene>
+        <!--Map Drag Content View Controller-->
+        <scene sceneID="mBz-bl-UP5">
+            <objects>
+                <viewController storyboardIdentifier="dragContentView" id="CxK-UF-bPj" customClass="FUIMapDragContentViewController" customModule="MapLegendDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cwi-t0-0ux">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Kjq-Ot-6DA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mof-4J-sSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="223"/>
+        </scene>
+        <!--Dummy View Controller-->
+        <scene sceneID="AaS-Wz-RSX">
+            <objects>
+                <viewController storyboardIdentifier="Dummy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fi9-Nw-esM" customClass="DummyViewController" customModule="MapLegendDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U6x-Bd-5J6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Fqs-Mi-uo3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gwp-BC-BDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="-457"/>
+        </scene>
+    </scenes>
+</document>

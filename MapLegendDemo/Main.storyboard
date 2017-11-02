@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w0d-5E-gvj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="5zy-pO-Prv">
+            <objects>
+                <viewController id="w0d-5E-gvj" customClass="MapViewController" customModule="MapTaskBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qEZ-TE-bMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="exm-Jc-nWH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rio-gh-xWT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EPw-Lt-XsN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awf-98-eJG">
+                                <rect key="frame" x="309" y="28" width="50" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tq-dD-UCC">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.160584121" blue="0.1774077996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="4tZ-JD-aZt"/>
+                                            <constraint firstAttribute="height" constant="50" id="miZ-DH-mcs"/>
+                                        </constraints>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2tq-dD-UCC" secondAttribute="trailing" id="66u-SF-RMs"/>
+                                    <constraint firstItem="2tq-dD-UCC" firstAttribute="top" secondItem="awf-98-eJG" secondAttribute="top" id="nnv-YM-nPH"/>
+                                    <constraint firstItem="2tq-dD-UCC" firstAttribute="leading" secondItem="awf-98-eJG" secondAttribute="leading" id="pNy-fz-YWZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="2tq-dD-UCC" secondAttribute="bottom" id="s8z-bz-iIF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EPw-Lt-XsN" firstAttribute="leading" secondItem="Rio-gh-xWT" secondAttribute="leading" id="AhU-Oa-atI"/>
+                            <constraint firstAttribute="trailing" secondItem="EPw-Lt-XsN" secondAttribute="trailing" id="Ern-Ws-tNu"/>
+                            <constraint firstItem="awf-98-eJG" firstAttribute="top" secondItem="qEZ-TE-bMK" secondAttribute="bottom" constant="8" id="cln-oV-6y1"/>
+                            <constraint firstItem="exm-Jc-nWH" firstAttribute="top" secondItem="EPw-Lt-XsN" secondAttribute="bottom" id="dJF-am-AfC"/>
+                            <constraint firstItem="awf-98-eJG" firstAttribute="trailing" secondItem="Rio-gh-xWT" secondAttribute="trailingMargin" id="iIM-EC-lsv"/>
+                            <constraint firstItem="EPw-Lt-XsN" firstAttribute="top" secondItem="qEZ-TE-bMK" secondAttribute="bottom" id="yzR-95-Yhf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="EPw-Lt-XsN" id="tBr-gA-x9a"/>
+                        <outlet property="popoutButton" destination="2tq-dD-UCC" id="KBz-t4-5uF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGr-ux-Wb9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="135"/>
+        </scene>
+    </scenes>
+</document>
